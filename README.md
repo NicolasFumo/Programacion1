@@ -1,7 +1,7 @@
 # Programación inicial
 ## Sábados de 16:00hs a 19:00hs
 
-Repositorio del curso de Programación inicial de Agenpia, debajo vas a encontrar referencias a el material y clases del curso.
+#### Repositorio del curso de Programación inicial de Agenpia, debajo vas a encontrar referencias al material y clases del curso.
 ------------
 **Grabaciónes del curso**
 
