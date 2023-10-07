@@ -1,3 +1,4 @@
+
 int cantidadFilas;
 int cantidadcolumnas;
 
@@ -15,9 +16,10 @@ datos[0, 2] = 3;
 datos[1, 0] = 4;
 datos[1, 1] = 5;
 datos[1, 2] = 6;
-//for (int fila = 0; fila < 2; fila++)
+
+//for (int fila = 0; fila < cantidadFilas; fila++)
 //{
-//    for (int columna = 0; columna < 3; columna++)
+//    for (int columna = 0; columna < cantidadcolumnas; columna++)
 //    {
 //        Console.Write($"Dato para F{fila} C{columna}: ");
 //        datos[fila, columna] = int.Parse(Console.ReadLine());
