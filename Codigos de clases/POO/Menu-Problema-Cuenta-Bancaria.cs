@@ -15,12 +15,15 @@ void menu()
         {
             case 1:
                 // Depositar
+                menu();
                 break;
             case 2:
                 // Extraer
+                menu();
                 break;
             case 3:
                 // Ver saldo
+                menu();
                 break;
             default:
                 // Si no es ninguna correcta, vuelvo a mostrar el menú
