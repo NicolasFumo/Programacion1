@@ -14,11 +14,11 @@ void menu()
         switch (opcion)
         {
             case 1:
-                // Depositar
+                // Extraer
                 menu();
                 break;
             case 2:
-                // Extraer
+                // Depositar
                 menu();
                 break;
             case 3:
