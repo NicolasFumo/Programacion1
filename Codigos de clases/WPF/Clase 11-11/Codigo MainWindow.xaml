@@ -1,0 +1,8 @@
+ <Grid>
+     <Button x:Name="btnBoton" Content="boton" HorizontalAlignment="Left" Margin="99,142,0,0" VerticalAlignment="Top" Width="114" Height="35" FontWeight="Bold" FontSize="18" FontFamily="Arial" Foreground="#FF0A5BFD" Background="#FFC11A1A" BorderBrush="#FF1AFF07" Click="MostrarSaludo"/>
+     <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Margin="123,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+     <Label Content="Ingresá tu nombre" HorizontalAlignment="Left" Margin="154,20,0,0" VerticalAlignment="Top"/>
+     <Label Content="Ingresá tu apellido" HorizontalAlignment="Left" Margin="151,74,0,0" VerticalAlignment="Top"/>
+     <TextBox x:Name="txtApellido" HorizontalAlignment="Left" Margin="123,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+     <Button Content="Reset" HorizontalAlignment="Left" Margin="224,142,0,0" VerticalAlignment="Top" Height="35" Width="90" Click="Reset"/>
+ </Grid>
