@@ -1,0 +1,10 @@
+<Grid>
+    <Label Content="Producto" HorizontalAlignment="Left" Margin="10,18,0,0" VerticalAlignment="Top"/>
+    <TextBox x:Name="txtProducto" HorizontalAlignment="Left" Margin="73,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222"/>
+    <Label Content="Cantidad" HorizontalAlignment="Left" Margin="306,18,0,0" VerticalAlignment="Top"/>
+    <TextBox x:Name="txtCantidad" HorizontalAlignment="Left" Margin="369,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63"/>
+    <Button Content="Agregar a la lista" HorizontalAlignment="Left" Margin="448,21,0,0" VerticalAlignment="Top" Width="119" Background="#FF32EC00" FontWeight="Bold" Click="AgregarItem"/>
+    <DataGrid x:Name="dtgProductos" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,61,10,10"/>
+    <Button Content="Remover de la lista" HorizontalAlignment="Left" Height="20" Margin="572,21,0,0" VerticalAlignment="Top" Width="133" Background="#FFFB1A1A" FontWeight="Bold" Click="RemoverItem"/>
+
+</Grid>
