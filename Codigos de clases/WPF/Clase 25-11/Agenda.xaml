@@ -1,0 +1,10 @@
+<Grid>
+    <Label Content="Nombre" HorizontalAlignment="Left" Height="26" Margin="63,15,0,0" VerticalAlignment="Top" Width="71"/>
+    <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Margin="127,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+    <TextBox x:Name="txtTelefono" HorizontalAlignment="Left" Margin="127,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+    <TextBox x:Name="txtApellido" HorizontalAlignment="Left" Margin="127,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+    <Label Content="Apellido" HorizontalAlignment="Left" Margin="64,46,0,0" VerticalAlignment="Top"/>
+    <Label Content="Telefono" HorizontalAlignment="Left" Margin="64,76,0,0" VerticalAlignment="Top"/>
+    <Button Content="Agregar" HorizontalAlignment="Left" Height="31" Margin="64,131,0,0" VerticalAlignment="Top" Width="109" Background="#FF10EF09" FontWeight="Bold"/>
+    <Button Content="Cancelar" HorizontalAlignment="Left" Height="31" Margin="189,131,0,0" VerticalAlignment="Top" Width="105" Background="#FFF70707" FontWeight="Bold"/>
+</Grid>
